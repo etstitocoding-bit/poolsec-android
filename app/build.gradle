@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'com.titocoding.poolsec'; compileSdk 36
+    defaultConfig { applicationId 'com.titocoding.poolsec'; minSdk 21; targetSdk 36; versionCode 1; versionName '1.0.0' }
+}
+
+dependencies { implementation 'androidx.webkit:webkit:1.14.0' }
